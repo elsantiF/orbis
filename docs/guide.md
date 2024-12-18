@@ -27,10 +27,10 @@ Yes, that is a lot of languages, and some were left out. Orbis will learn the le
 
 ## Goals
 
-First, a language that can be applied in a, but not limited to, high-performance, critical computing
-Second, a language that feels natural to write and read
-Third, a modular and extensible language (see macros and meta-programming)
-Fourth, a language that can be learned in less than an hour for a programmer
+1. A language that can be applied in a, but not limited to, high-performance, critical computing
+2. A language that feels natural to write and read with an adaptable learning curve
+3. A language that can be extended (see macros and meta-programming)
+4. A language that can be learned in less than an hour for a programmer
 
 ## Features
 
@@ -94,7 +94,7 @@ let a = 10;
 
 {
     // a is in scope
-    let a = 30;     // a is shadowed
+    let a = 30;     // variable shadowing, early a is 'hidden'
     let b = 20;
     io.print(a);    // 30
     io.print(b);    // 20
@@ -155,7 +155,8 @@ Chars in the other hand will be implemented as aliases of:
 
 Strings will not be a native type, they will be more like a 'composite' type, more on this later.
 
-> :bangbang: TODO: Define how the Strings will be implemented
+> [!WARNING]
+> Define how the Strings will be implemented
 
 Booleans will be a native type, but they will more like a 'bit-set'. Later will be explained.
 Important to know, you can define your own types or aliases to the native types.
@@ -326,7 +327,8 @@ struct Point {
 
 Classes are similar to structs, but they can have methods. They will be similar to C++ classes.
 
-> :warning: Classes may be removed in the future, because they are a 'syntax sugar' for composites.
+> [!WARNING]
+> Classes may be removed in the future, because they are a 'syntax sugar' for composites.
 > They currently exist to facilitate C++ compatibility.
 
 ```ts
@@ -512,7 +514,8 @@ fn point_to_string(point: Point): string {
 
 ### Memory
 
-> :bangbang: TODO: This is under construction, some features may be removed or added
+> [!CAUTION]
+> This is under construction, some features may be removed or added
 
 In computers memory has only two possible methods: read and write.
 From here, we can derive all the other memory operations, such as:
@@ -595,7 +598,8 @@ io.print(*b); // 10
 Traits are a way to define a set of methods that a struct or class must implement.
 They are similar to interfaces in Java or C# or traits in Rust.
 
-> :bangbang: TODO: Expand this section
+> [!WARNING]
+> Expand this section
 
 ```ts
 trait Drawable {
@@ -616,7 +620,8 @@ class Shape {
 
 Composites are a way to define a 'class' that is composed by other classes.
 
-> :warning: Composites may be unified with classes, with the keyword 'use'
+> [!WARNING]
+> Composites may be unified with classes, with the keyword 'use'
 
 ```ts
 class Drawable {
@@ -679,7 +684,8 @@ Math.abs(-10);  // 10
 
 Structs can have methods if they are 'SoA' (Struct of Arrays) or 'AoS' (Array of Structs).
 
-> :bangbang: TODO: Define how SoA and AoS will be implemented
+> [!CAUTION]
+> Define how SoA and AoS will be implemented
 
 ### Error handling
 
@@ -724,7 +730,8 @@ fn get_value(a: i32): Option<i32> {
 
 ### Annotations or Attributes
 
-> :warning: This is under construction, name and syntax may change
+> [!CAUTION]
+> This is under construction, name and syntax may change
 
 Annotations are a way to add metadata to the code, they are similar to C# attributes or Rust's attributes.
 
@@ -740,7 +747,8 @@ to the code (like \_\_attribute__ in GCC) or even manipulate the code.
 
 ### Templates or Generics
 
-> :warning: This is under construction, name and syntax may change
+> [!WARNING]
+> This is under construction, name and syntax may change
 
 Templates are a way to define a function or a struct that can be used with different types. They are compile-time evaluated.
 
@@ -789,7 +797,8 @@ create 'private' functions or variables without the need to create a class.
 
 ### Macros and Meta-programming
 
-> :bangbang: TODO: Research is needed to define how macros will be implemented
+> [!CAUTION]
+> Research is needed to define how macros will be implemented
 
 ## Extensions
 
