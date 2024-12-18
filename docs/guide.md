@@ -909,6 +909,11 @@ Also, 'static' in many languages is actually 'syntatyc sugar' for other things.
 Meta-programming is a extremely powerful tool that enables the developer to write less code, making the iteration faster and the code more readable.
 Also, Orbis is a extremely modular language, so meta-programming is a must. The standard library will use a lot of meta-programming.
 
+### Why no 'try/catch'?
+
+I thinks that the 'try/catch' system can be used in some cases to not handle errors, but instead hide them, like in global error handlers. Also,
+from a performance perspective, they provide a lot of overhead. The replacement with 'Result' and 'Option' types is more explicit and more efficient.
+
 ## Philosophy
 
 ### About bugs
