@@ -664,7 +664,11 @@ composite Shape {
 
 ### Objects
 
-Objects are a like static classes, they can't be instantiated, but they can have methods and fields.
+> [!WARNING]
+> Objects may be removed in the future, because they are a 'syntax sugar' for global functions and variables.
+
+Objects are like to 'singleton' in other languages.
+Objects can have methods and fields.
 
 ```ts
 object Math {
