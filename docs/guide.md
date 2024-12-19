@@ -890,7 +890,7 @@ In the far future the develop of an v2.0 may start, but it will feel like a new 
 
 ## License
 
-Everything related to Orbis will be under the MIT license, everyone can use it without restrictions.
+Everything related to Orbis will be under the Apache License 2.0, everyone can use it without restrictions.
 
 ## Why?
 
