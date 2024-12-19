@@ -50,13 +50,20 @@ Yes, that is a lot of languages, and some were left out. Orbis will learn the le
 This guide is a work in progress, general ideas and features of Orbis. Think it as a small specification.
 Things may change, be removed or added and here is a list of no done things:
 
-- Memory management
+- Comments
+- Optional types
 - Strings
+- Memory management
+- Defer blocks
 - Standard library
 - Lifetime management
 - SoA and AoS
 - Macros and meta-programming
 - Annotations or attributes
+- Reflection
+- Functional programming
+- Async / Await
+- Operator overloading
 
 ## Syntax
 
