@@ -5,7 +5,7 @@ It will be based in the C-Syntax with some Rust, Kotlin and Zig influences.
 ## Move and copy semantics
 
 The main difference with other langues will be the 'move semantics'.
-The '=' operator copies values, while the '<-' operator moves values. For example:
+The `=` operator copies values, while the `<-` operator moves values. For example:
 
 ```ts
 mut let a = 10; // copy
@@ -21,8 +21,8 @@ io.print(c); // 10
 io.print(b); // compile error! b is dropped
 ```
 
-By default any variable declared will be immutable, you need to add the 'mut' keyword to make it mutable.
-Also, any variable will be copied by default, unless you use the '<-' operator or force a move.
+By default any variable declared will be immutable, you need to add the `mut` keyword to make it mutable.
+Also, any variable will be copied by default, unless you use the `<-` operator or force a move.
 
 ## Scopes and lifetimes
 

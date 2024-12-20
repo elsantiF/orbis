@@ -63,8 +63,8 @@ let c: b8;  // false or 0
 A bit-set will be a type that can store a arbitrary number of bits, for example:
 
 ```ts
-let a: b8   // 8 bits or traditional 'bool'
-let b: b16  // 16 bits
+let a: b8;  // 8 bits or traditional 'bool'
+let b: b16; // 16 bits
 let c: b3;  // 3 bits
 ```
 
@@ -106,7 +106,7 @@ More operators may be added. Also, Like in Zig it will have the 'normal' operato
 ```ts
 let a = 255;
 
-// let b = a + 1;   // compile error!
-let c = a %+ 1      // ok, c = 0
-let d = a |+ 1      // ok, d = 255
+let b = a + 1;  // compile error!
+let c = a %+ 1; // ok, c = 0
+let d = a |+ 1; // ok, d = 255
 ```

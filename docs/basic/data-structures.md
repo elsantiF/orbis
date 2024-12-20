@@ -11,7 +11,7 @@ struct Point {
 }
 ```
 
-Struct are only immutable data, you can add the 'mut' keyword to make it mutable:
+Struct are only immutable data, you can add the `mut` keyword to make it mutable:
 
 ```ts
 struct Point {

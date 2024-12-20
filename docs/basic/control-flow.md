@@ -1,6 +1,6 @@
 # Control flow
 
-Orbis will have: if, for and do-for loops.
+Orbis will have: `if`, `for` and `do`-`for` loops.
 
 ```ts
 let a = 10;
