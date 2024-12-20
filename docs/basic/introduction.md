@@ -52,7 +52,6 @@ Things may change, be removed or added and here is a list of no done things:
 
 - Strings
 - Memory management
-- Defer blocks
 - Standard library
 - Lifetime management
 - SoA and AoS
