@@ -1,6 +1,7 @@
 # Basic
 
 - [Introduction](./basic/introduction.md)
+- [Layers](./basic/layers.md)
 - [Syntax](./basic/syntax.md)
 - [Types](./basic/types.md)
 - [Control Flow](./basic/control-flow.md)
