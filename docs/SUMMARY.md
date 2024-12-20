@@ -4,6 +4,7 @@
 - [Layers](./basic/layers.md)
 - [Syntax](./basic/syntax.md)
 - [Types](./basic/types.md)
+- [Null, Optionals and Undefined](./basic/null-optionals-and-undefined.md)
 - [Control Flow](./basic/control-flow.md)
 - [Functions](./basic/functions.md)
 - [Data Structures](./basic/data-structures.md)
