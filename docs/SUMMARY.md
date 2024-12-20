@@ -3,6 +3,7 @@
 - [Introduction](./basic/introduction.md)
 - [Layers](./basic/layers.md)
 - [Syntax](./basic/syntax.md)
+- [Comments](./basic/comments.md)
 - [Types](./basic/types.md)
 - [Null, Optionals and Undefined](./basic/null-optionals-and-undefined.md)
 - [Control Flow](./basic/control-flow.md)
