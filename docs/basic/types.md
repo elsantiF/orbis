@@ -97,7 +97,7 @@ using the least amount of memory possible.
 | >= | Greater than or equal |
 | & | Reference |
 | <- | Move |
-| ? | Safe call |
+| ? | Optional / Null check |
 | !! | Null panic |
 
 More operators may be added. Also, Like in Zig it will have the 'normal' operators, the
