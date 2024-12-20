@@ -21,8 +21,9 @@
 # Advanced
 
 - [Compile-time Evaluation](./advanced/compile-time-evaluation.md)
-- [High Level Memory](./advanced/high-level-memory.md)
-- [Low Level Memory](./advanced/low-level-memory.md)
+- [Memory](./advanced/memory/memory.md)
+  - [High Level Memory](./advanced/memory/high-level-memory.md)
+  - [Low Level Memory](./advanced/memory/low-level-memory.md)
 - [Error Handling](./advanced/error-handling.md)
 - [Attributes](./advanced/attributes.md)
 - [Generics](./advanced/generics.md)
