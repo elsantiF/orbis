@@ -62,3 +62,6 @@ Things may change, be removed or added and here is a list of no done things:
 - Functional programming
 - Async / Await
 - Operator overloading
+
+The original guide was written in about 8 hours, so may have some typos and errors. If you find one, please open an issue.
+Also if you have any suggestions, questions or want to contribute, please open an issue or a PR.
