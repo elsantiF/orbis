@@ -33,7 +33,7 @@ if (a?.length() > 0) { // only executes if a is not null and has a length greate
 
 ## Undefined
 
-By default, all variables have a 'initial value', even if you don't assign one. `undefined` is a
+By default, all variables have an 'initial value', even if you don't assign one. `undefined` is a
 special value that works like C and C++'s utilized variables. You can't use the variable until you assign a value to it.
 
 ```rs

@@ -1,6 +1,6 @@
 # GPU Extension
 
-The propose of this extension is to enable the compilation of the code to run in a GPU.
+The purpose of this extension. is to enable the compilation of the code to run in a GPU.
 To enable GPU extension you need to: pass the '-extension=gpu' flag to the compiler.
 This will:
 

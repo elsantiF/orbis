@@ -15,7 +15,7 @@ Initially it was only a codename but I like it.
 ## Why no 'static' keyword?
 
 The 'static' keyword have little to no sense in a no forced OOP language. It usually hides an architectural problem instead of resolving it.
-Also, 'static' in many languages is actually 'syntatyc sugar' for other things.
+Also, 'static' in many languages is actually 'syntactic sugar' for other things.
 
 ## Why meta-programming?
 
@@ -24,5 +24,5 @@ Also, Orbis is a extremely modular language, so meta-programming is a must. The 
 
 ## Why no 'try/catch'?
 
-I thinks that the 'try/catch' system can be used in some cases to not handle errors, but instead hide them, like in global error handlers. Also,
+I think that the 'try/catch' system can be used in some cases to not handle errors, but instead hide them, like in global error handlers. Also,
 from a performance perspective, they provide a lot of overhead. The replacement with 'Result' and 'Option' types is more explicit and more efficient.
