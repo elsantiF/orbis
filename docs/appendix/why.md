@@ -26,3 +26,9 @@ Also, Orbis is a extremely modular language, so meta-programming is a must. The 
 
 I think that the 'try/catch' system can be used in some cases to not handle errors, but instead hide them, like in global error handlers. Also,
 from a performance perspective, they provide a lot of overhead. The replacement with 'Result' and 'Option' types is more explicit and more efficient.
+
+## Why no 'null' (only for optionals)?
+
+`null` is a special value in many languages but it have no sense from a memory perspective because it's value is not other than a pointer to the memory address 0.
+This causes that developers can use `null` in many cases where they should not. I think that a better approach is to use `Option` and `Result` types, they force the developer to handle the cases where the value is `null` or the operation fails.
+

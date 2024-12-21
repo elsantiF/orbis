@@ -2,6 +2,9 @@
 
 ## Null and Optionals
 
+> [!WARNING]
+> `null` may be removed, also 'Optionals' can become part of the 'core' layer instead of the language itself.
+
 `null` is a special value in many languages that represents the absence of a value. This can lead to many issues, such as null pointer exceptions (Java and C#). In Orbis, `null` is not a special value, but rather a type. This means that you can't assign `null` to a variable unless it is explicitly typed as `null`.
 
 ```rs
