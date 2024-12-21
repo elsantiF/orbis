@@ -1,3 +1,3 @@
 # Orbis
 
-To see the docs go to [orbis-docs](docs/README.md)
+To see the docs go to [docs](docs/README.md)
