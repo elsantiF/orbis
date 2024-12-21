@@ -3,7 +3,7 @@
 ## Atoms
 
 > [!WARNING]
-> Atoms may be removed in the future.
+> Atoms may be renamed to Symbols in the future.
 
 Atoms are a way to define a unique value, they are similar to Erlang atoms, but they act more like a 'tag' than a 'value'.
 
@@ -20,7 +20,7 @@ Atoms can't be compared with numbers but internally they will be a unique 64-bit
 
 ## Enums
 
-Based on atoms, enums are a way to define a set of values.
+Based on atoms, enums are a way to define a set of atoms.
 
 ```ts
 enum Color {
