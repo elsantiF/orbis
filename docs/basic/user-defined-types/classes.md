@@ -14,7 +14,7 @@ class Point {
     y: f32;
 
     pub myValue: f32;   // public
-    pro myValue2: f32;  // protected
+    sub myValue2: f32;  // sub is like protected in other languages
 
     pub fn constructor(x: f32, y: f32) {
         this.x = x;
