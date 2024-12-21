@@ -31,4 +31,3 @@ from a performance perspective, they provide a lot of overhead. The replacement 
 
 `null` is a special value in many languages but it have no sense from a memory perspective because it's value is not other than a pointer to the memory address 0.
 This causes that developers can use `null` in many cases where they should not. I think that a better approach is to use `Option` and `Result` types, they force the developer to handle the cases where the value is `null` or the operation fails.
-
